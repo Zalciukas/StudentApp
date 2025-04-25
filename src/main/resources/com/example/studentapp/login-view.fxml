@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.studentapp.LoginController"
+      prefHeight="300.0" prefWidth="400.0">
+
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <Text text="Welcome to Student System" style="-fx-font-size: 20;"/>
+    <Button fx:id="loginButton" text="Enter" onAction="#onLoginClicked" prefWidth="200" prefHeight="40"/>
+</VBox>

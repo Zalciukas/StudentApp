@@ -1,0 +1,17 @@
+/Users/augis/Documents/java/StudentApp/src/main/java/com/example/studentapp/AttendanceTabController.java
+/Users/augis/Documents/java/StudentApp/src/main/java/com/example/studentapp/GroupAttendanceController.java
+/Users/augis/Documents/java/StudentApp/src/main/java/com/example/studentapp/LoginController.java
+/Users/augis/Documents/java/StudentApp/src/main/java/com/example/studentapp/MainController.java
+/Users/augis/Documents/java/StudentApp/src/main/java/com/example/studentapp/ReportsTabController.java
+/Users/augis/Documents/java/StudentApp/src/main/java/com/example/studentapp/StudentApp.java
+/Users/augis/Documents/java/StudentApp/src/main/java/com/example/studentapp/StudentsTabController.java
+/Users/augis/Documents/java/StudentApp/src/main/java/com/example/studentapp/model/AttendanceManager.java
+/Users/augis/Documents/java/StudentApp/src/main/java/com/example/studentapp/model/Group.java
+/Users/augis/Documents/java/StudentApp/src/main/java/com/example/studentapp/model/Importable.java
+/Users/augis/Documents/java/StudentApp/src/main/java/com/example/studentapp/model/Person.java
+/Users/augis/Documents/java/StudentApp/src/main/java/com/example/studentapp/model/Saveable.java
+/Users/augis/Documents/java/StudentApp/src/main/java/com/example/studentapp/model/Student.java
+/Users/augis/Documents/java/StudentApp/src/main/java/com/example/studentapp/model/StudentGroup.java
+/Users/augis/Documents/java/StudentApp/src/main/java/com/example/studentapp/util/DataImportExport.java
+/Users/augis/Documents/java/StudentApp/src/main/java/com/example/studentapp/util/PDFGenerator.java
+/Users/augis/Documents/java/StudentApp/src/main/java/module-info.java

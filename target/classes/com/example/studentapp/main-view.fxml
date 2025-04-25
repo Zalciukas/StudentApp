@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="mainBorderPane" xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.studentapp.MainController"
+            prefWidth="800" prefHeight="600">
+
+    <top>
+        <MenuBar>
+            <Menu text="File">
+                <MenuItem fx:id="importCsvMenuItem" text="Import CSV" onAction="#onImportCsv"/>
+                <MenuItem fx:id="importExcelMenuItem" text="Import Excel" onAction="#onImportExcel"/>
+                <SeparatorMenuItem/>
+                <MenuItem fx:id="exportCsvMenuItem" text="Export CSV" onAction="#onExportCsv"/>
+                <MenuItem fx:id="exportExcelMenuItem" text="Export Excel" onAction="#onExportExcel"/>
+                <SeparatorMenuItem/>
+                <MenuItem text="Exit" onAction="#onExit"/>
+            </Menu>
+            <Menu text="Tools">
+                <MenuItem text="Random Student Picker" onAction="#onPickRandomStudent"/>
+            </Menu>
+            <Menu text="Account">
+                <MenuItem fx:id="logoutMenuItem" text="Logout" onAction="#onLogout"/>
+            </Menu>
+        </MenuBar>
+    </top>
+
+    <center>
+        <TabPane fx:id="tabPane">
+            <Tab text="Students">
+                <fx:include source="students-tab.fxml"/>
+            </Tab>
+            <Tab text="Groups">
+                <fx:include source="groups-tab.fxml"/>
+            </Tab>
+            <Tab text="Attendance">
+                <fx:include source="attendance-tab.fxml"/>
+            </Tab>
+            <Tab text="Reports">
+                <fx:include source="reports-tab.fxml"/>
+            </Tab>
+        </TabPane>
+    </center>
+
+    <bottom>
+        <HBox alignment="CENTER_RIGHT" spacing="10" style="-fx-padding: 5;">
+            <Label text="Student Management System" />
+        </HBox>
+    </bottom>
+
+</BorderPane>
